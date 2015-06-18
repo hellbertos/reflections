@@ -9,4 +9,5 @@ The working area thus can have files added to it w/o affecting the staging area.
 The repository though has not been altered yet while the user determines which files s/he'd liked tracked.
 One value would be that a user could continue to add files to the working directory w/o altering the potential commit.
 
-sdsdsd
+How can you use the staging area to make sure you have one commit per logical change?
+A: By staging a file only after fixing/editiing/adding one component then commiting it thereafter, it would help to contain changes to a singular logical change.
