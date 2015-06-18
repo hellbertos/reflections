@@ -1,0 +1,29 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A: Using a tool like diff is so helpful because it eliminates so much extranious content.
+Additionally, knowing that what I'm looking at contains an incosistancy creates an ethusiam to find it.
+Like a known clue to hone in on, its as though its just a matter of time.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: It would likely help in many ways. For one, if something breaks, I'd be able to roll-back to a version which works to start over.
+Also, being able to go back to see how a dependancy worked if the scope of the project had changed.
+In particular, in the event of an unexpected crash and loss of work, I could go back to a save point before and recover some work.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+A: In the "pros" category, I think the more obvious would be that human logic is determining that a logic change(s) have been made.
+Also, a pro would be the opportunity to add a comment about the change so the next person has understanding of what the diff will show.
+Another pro is that the amount of historic files could be minimized from contiual auto-saving.
+Cons would be that human error might mean someone would forget to commit.
+Another con would be that of lost work due to an unforseen crash.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A: Because Git is designed as a version control for programmers and, often times, programs (websites, etc.) are comprised of mulitple dependent files.
+It would make sense to save all the files which are inter-related
+Google Docs, on the other hand, is meant as a document repository first, so it wasn't designed to understand that stand-alone docs could have inter-related dependencies.
+
+How can you use the commands git log and git diff to view the history of files?
+A: By using the "log" command one can easily the chain of various changes commited to the repository, who commited them and when.
+By using the "diff" command, one can compare two different files and be show the various changes made to each; line by line, deletions and additions.
+
+How might using version control make you more confident to make changes that could break something?
+A: I suppose that knowing I could revert back to a previous, fully functional version would offer a certain confidence to experiment.
+To "go down the rabbit hole" knowing I could instantly revert back to a working copy w/o additions would be nice.
