@@ -8,3 +8,5 @@ A: The staging area offers an intermediary from the working directory and the re
 The working area thus can have files added to it w/o affecting the staging area.
 The repository though has not been altered yet while the user determines which files s/he'd liked tracked.
 One value would be that a user could continue to add files to the working directory w/o altering the potential commit.
+
+sdsdsd
