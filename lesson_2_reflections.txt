@@ -1,0 +1,10 @@
+
+What happens when you initialize a repository? Why do you need to do it?
+A: Git marks that directory w/ a '.git' file so it has a means by which to "know" to track it.
+Without the .git file, there would nowhere for git to put its meta data and begin tracking files
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: The staging area offers an intermediary from the working directory and the respository.
+The working area thus can have files added to it w/o affecting the staging area.
+The repository though has not been altered yet while the user determines which files s/he'd liked tracked.
+One value would be that a user could continue to add files to the working directory w/o altering the potential commit.
