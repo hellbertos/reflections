@@ -1,1 +1,5 @@
-Here's the new file I've created on GitHub
+-- Here's the new file I've created on GitHub --
+
+When would you want to use a remote repository rather than keeping all your work local?
+A: I think the biggest benefits would be the two described in the lesson: when working from  adifferent computer (e.g. home vs work comp, borrowing a friend's comp if you were out of town or your comp was broken).
+Also, when working on a larger project with more than one other person. 
