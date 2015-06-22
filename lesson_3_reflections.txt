@@ -2,4 +2,7 @@
 
 When would you want to use a remote repository rather than keeping all your work local?
 A: I think the biggest benefits would be the two described in the lesson: when working from  adifferent computer (e.g. home vs work comp, borrowing a friend's comp if you were out of town or your comp was broken).
-Also, when working on a larger project with more than one other person. 
+Also, when working on a larger project with more than one other person.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+A: The remote respository may be updated by other people so it would be important to vet what changes were made to make sure there wasn't conflict with your local repository.
