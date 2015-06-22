@@ -6,3 +6,8 @@ Also, when working on a larger project with more than one other person.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A: The remote respository may be updated by other people so it would be important to vet what changes were made to make sure there wasn't conflict with your local repository.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: I would use a fork when I want my own copy of a repository which I don't have permission to change
+I would clone to copy a repository down from GitHub to my local computer
+I woud create a branch when I wanted to make changes/additions to my project on my local machine without changing the core files of the project.
