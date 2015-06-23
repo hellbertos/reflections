@@ -14,3 +14,9 @@ I woud create a branch when I wanted to make changes/additions to my project on 
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 A: It can be compared to the existing state when you're ready to merge later and you can diff to determine if any changes have been made w/o your knowledge.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A: I'd likely be using flat files across the cloud, like Google Drive or Drop Box.
+The main benefit would be adding a file doesn't require understanding a fairly complicated workflow like Git. Just rename and add.
+The drawback would be the aggregation of many similar files w/o an automated way to determine what changes were made to each.
+Additionally, flat files would not allow for forking w/o communicating the need and perhaps creating a new file folder.
